@@ -2,7 +2,23 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.MyMovLi" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <!--Primary brand color -->
+        <item name="colorPrimary">@color/steel_blue</item>
+        <item name="colorPrimaryVariant">@color/dark_blue_gray</item>
+        <item name="colorOnPrimary">@color/steel_blue</item>
+
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/soft_blue_gray</item>
+        <item name="colorSecondaryVariant">@color/soft_blue_gray</item>
+        <item name="colorOnSecondary">@color/steel_blue</item>
+
+        <!-- Neutral color -->
+        <item name="backgroundColor">@color/light_blue_gray</item>
+        <item name="android:textColorPrimary">@color/dark_blue_gray</item>
+        <item name="android:textColorSecondary">@color/soft_blue_gray</item>
+
+
     </style>
 
     <style name="Theme.MyMovLi" parent="Base.Theme.MyMovLi" />

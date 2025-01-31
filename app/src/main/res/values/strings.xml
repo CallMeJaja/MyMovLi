@@ -1,3 +1,335 @@
 <resources>
     <string name="app_name">MyMovLi</string>
+    <string name="full_name">Reza Asriano Maulana</string>
+    <string name="email">rezaasriano1933@gmail.com</string>
+    <string name="github">CallMeJaja</string>
+    <string name="instagram">rzae.id</string>
+
+    <string name="title">Judul Film</string>
+    <string name="description">Deskripsi Film</string>
+    <string name="genre">Genre</string>
+    <string name="censor_rating">Rating</string>
+    <string name="duration">Durasi</string>
+
+
+    <!-- Movie Posters URL -->
+    <string-array name="movie_posters">
+        <item>https://cdn.cgv.id/uploads_v2/movie/compressed/20004600.jpg</item>
+        <item>https://cdn.cgv.id/uploads_v2/movie/compressed/24055700.jpg</item>
+        <item>https://cdn.cgv.id/uploads_v2/movie/compressed/24057100.jpg</item>
+        <item>https://cdn.cgv.id/uploads_v2/movie/compressed/24059200.jpg</item>
+        <item>https://cdn.cgv.id/uploads_v2/movie/compressed/24059700.jpg</item>
+        <item>https://cdn.cgv.id/uploads_v2/movie/compressed/24060200.jpg</item>
+        <item>https://cdn.cgv.id/uploads_v2/movie/compressed/24060500.jpg</item>
+        <item>https://cdn.cgv.id/uploads_v2/movie/compressed/24061000.jpg</item>
+        <item>https://cdn.cgv.id/uploads_v2/movie/compressed/24061400.jpg</item>
+        <item>https://cdn.cgv.id/uploads_v2/movie/compressed/24061800.jpg</item>
+        <item>https://cdn.cgv.id/uploads_v2/movie/compressed/25000400.jpg</item>
+        <item>https://cdn.cgv.id/uploads_v2/movie/compressed/25000800.jpg</item>
+        <item>https://cdn.cgv.id/uploads_v2/movie/compressed/25000900.jpg</item>
+        <item>https://cdn.cgv.id/uploads_v2/movie/compressed/25001200.jpg</item>
+        <item>https://cdn.cgv.id/uploads_v2/movie/compressed/25001300.jpg</item>
+        <item>https://cdn.cgv.id/uploads_v2/movie/compressed/25001400.jpg</item>
+        <item>https://cdn.cgv.id/uploads_v2/movie/compressed/25001900.jpg</item>
+        <item>https://cdn.cgv.id/uploads_v2/movie/compressed/25002100.jpg</item>
+        <item>https://cdn.cgv.id/uploads_v2/movie/compressed/25002700.jpg</item>
+        <item>https://cdn.cgv.id/uploads_v2/movie/compressed/25002800.jpg</item>
+        <item>https://cdn.cgv.id/uploads_v2/movie/compressed/25002900.jpg</item>
+    </string-array>
+
+    <!--Movie Titles -->
+    <string-array name="movie_title">
+        <item>BUKU HARIANKU</item>
+        <item>SEBELUM 7 HARI</item>
+        <item>MUFASA</item>
+        <item>SONIC THE HEDGEHOG 3</item>
+        <item>1 KAKAK 7 PONAKAN</item>
+        <item>PERAYAAN MATI RASA</item>
+        <item>KEAJAIBAN AIR MATA WANITA</item>
+        <item>PENGANTIN SETAN</item>
+        <item>404 RUN RUN</item>
+        <item>DARK NUNS</item>
+        <item>OVERLORD: THE SACRED KINGDOM</item>
+        <item>RIDER</item>
+        <item>PENGANTIN IBLIS</item>
+        <item>LAGU CINTA UNTUK MAMA</item>
+        <item>COMPANION</item>
+        <item>A BUSINESS PROPOSAL</item>
+        <item>THE LAST DANCE</item>
+        <item>(G)I-DLE WORLD TOUR [IDOL] IN CINEMA</item>
+        <item>PADDINGTON IN PERU</item>
+        <item>SKY FORCE</item>
+        <item>FORBIDDEN FAIRYTALE</item>
+    </string-array>
+
+    <!-- Movie Description -->
+    <string-array name="movie_description">
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aut consectetur deserunt eum expedita, explicabo laboriosam laudantium nemo nisi perspiciatis, possimus quaerat quibusdam quo ratione totam vitae voluptatem, voluptatibus?</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aut consectetur deserunt eum expedita, explicabo laboriosam laudantium nemo nisi perspiciatis, possimus quaerat quibusdam quo ratione totam vitae voluptatem, voluptatibus?</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aut consectetur deserunt eum expedita, explicabo laboriosam laudantium nemo nisi perspiciatis, possimus quaerat quibusdam quo ratione totam vitae voluptatem, voluptatibus?</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aut consectetur deserunt eum expedita, explicabo laboriosam laudantium nemo nisi perspiciatis, possimus quaerat quibusdam quo ratione totam vitae voluptatem, voluptatibus?</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aut consectetur deserunt eum expedita, explicabo laboriosam laudantium nemo nisi perspiciatis, possimus quaerat quibusdam quo ratione totam vitae voluptatem, voluptatibus?</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aut consectetur deserunt eum expedita, explicabo laboriosam laudantium nemo nisi perspiciatis, possimus quaerat quibusdam quo ratione totam vitae voluptatem, voluptatibus?</item><item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aut consectetur deserunt eum expedita, explicabo laboriosam laudantium nemo nisi perspiciatis, possimus quaerat quibusdam quo ratione totam vitae voluptatem, voluptatibus?</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aut consectetur deserunt eum expedita, explicabo laboriosam laudantium nemo nisi perspiciatis, possimus quaerat quibusdam quo ratione totam vitae voluptatem, voluptatibus?</item><item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aut consectetur deserunt eum expedita, explicabo laboriosam laudantium nemo nisi perspiciatis, possimus quaerat quibusdam quo ratione totam vitae voluptatem, voluptatibus?</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aut consectetur deserunt eum expedita, explicabo laboriosam laudantium nemo nisi perspiciatis, possimus quaerat quibusdam quo ratione totam vitae voluptatem, voluptatibus?</item><item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aut consectetur deserunt eum expedita, explicabo laboriosam laudantium nemo nisi perspiciatis, possimus quaerat quibusdam quo ratione totam vitae voluptatem, voluptatibus?</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aut consectetur deserunt eum expedita, explicabo laboriosam laudantium nemo nisi perspiciatis, possimus quaerat quibusdam quo ratione totam vitae voluptatem, voluptatibus?</item><item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aut consectetur deserunt eum expedita, explicabo laboriosam laudantium nemo nisi perspiciatis, possimus quaerat quibusdam quo ratione totam vitae voluptatem, voluptatibus?</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aut consectetur deserunt eum expedita, explicabo laboriosam laudantium nemo nisi perspiciatis, possimus quaerat quibusdam quo ratione totam vitae voluptatem, voluptatibus?</item><item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aut consectetur deserunt eum expedita, explicabo laboriosam laudantium nemo nisi perspiciatis, possimus quaerat quibusdam quo ratione totam vitae voluptatem, voluptatibus?</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aut consectetur deserunt eum expedita, explicabo laboriosam laudantium nemo nisi perspiciatis, possimus quaerat quibusdam quo ratione totam vitae voluptatem, voluptatibus?</item><item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aut consectetur deserunt eum expedita, explicabo laboriosam laudantium nemo nisi perspiciatis, possimus quaerat quibusdam quo ratione totam vitae voluptatem, voluptatibus?</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aut consectetur deserunt eum expedita, explicabo laboriosam laudantium nemo nisi perspiciatis, possimus quaerat quibusdam quo ratione totam vitae voluptatem, voluptatibus?</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aut consectetur deserunt eum expedita, explicabo laboriosam laudantium nemo nisi perspiciatis, possimus quaerat quibusdam quo ratione totam vitae voluptatem, voluptatibus?</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aut consectetur deserunt eum expedita, explicabo laboriosam laudantium nemo nisi perspiciatis, possimus quaerat quibusdam quo ratione totam vitae voluptatem, voluptatibus?</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aut consectetur deserunt eum expedita, explicabo laboriosam laudantium nemo nisi perspiciatis, possimus quaerat quibusdam quo ratione totam vitae voluptatem, voluptatibus?</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aut consectetur deserunt eum expedita, explicabo laboriosam laudantium nemo nisi perspiciatis, possimus quaerat quibusdam quo ratione totam vitae voluptatem, voluptatibus?</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aut consectetur deserunt eum expedita, explicabo laboriosam laudantium nemo nisi perspiciatis, possimus quaerat quibusdam quo ratione totam vitae voluptatem, voluptatibus?</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aut consectetur deserunt eum expedita, explicabo laboriosam laudantium nemo nisi perspiciatis, possimus quaerat quibusdam quo ratione totam vitae voluptatem, voluptatibus?</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aut consectetur deserunt eum expedita, explicabo laboriosam laudantium nemo nisi perspiciatis, possimus quaerat quibusdam quo ratione totam vitae voluptatem, voluptatibus?</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aut consectetur deserunt eum expedita, explicabo laboriosam laudantium nemo nisi perspiciatis, possimus quaerat quibusdam quo ratione totam vitae voluptatem, voluptatibus?</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aut consectetur deserunt eum expedita, explicabo laboriosam laudantium nemo nisi perspiciatis, possimus quaerat quibusdam quo ratione totam vitae voluptatem, voluptatibus?</item>
+    </string-array>
+
+    <!-- Movie Directors -->
+    <string-array name="movie_director">
+        <item>Angling Sagaran</item>
+        <item>Awi Suryadi</item>
+        <item>Barry Jenkins</item>
+        <item>Jeff Fowler</item>
+        <item>Yandy Laurens</item>
+        <item>Umay Shahab</item>
+        <item>Indra Gunawan</item>
+        <item>Azhar Kinoi Lubis</item>
+        <item>Pichaya Jarusboonpracha</item>
+        <item>Kwon Hyeok-jae</item>
+        <item>Naoyuki Ito</item>
+        <item>Kung Fu-Nitiwat Cholvanisiri</item>
+        <item>Azhar Kinoi Lubis</item>
+        <item>Hasto Broto</item>
+        <item>Drew Hancock</item>
+        <item>Rako Prijanto</item>
+        <item>CHAN Mou Yin</item>
+        <item>Yoondong Oh</item>
+        <item>Dougal Wilson</item>
+        <item>Sandeep Kewlani</item>
+        <item>LEE Jong-suk</item>
+        <item></item>
+    </string-array>
+
+    <!-- Movie Starring -->
+    <string-array name="movie_starring">
+        <item>
+            Kila Putri Alam
+            \nWiduri Puteri
+            \nSlamet Rahardjo
+            \nWidi Mulia
+            \nDwi Sasono
+            \nEnce Bagus
+            \nGary Iskak
+        </item>
+        <item>
+            Fanny Ghassani
+            \nAgla Artalidia
+        </item>
+        <item>
+            Aaron Pierre
+            \nKelvin Harrison
+        </item>
+        <item>
+            Jim Carrey
+            \nKeanu Reeves
+        </item>
+        <item>
+            Amanda Rawles
+            \nFatih Unru
+            \nChicco Kurniawan
+        </item>
+        <item>
+           Iqbaal Ramadhan
+            \nDwi Sasono
+        </item>
+        <item>
+            Citra Kirana
+            \nRezky Aditya
+        </item>
+        <item>
+            Erika Carlina
+            \nEmir Mahira
+        </item>
+        <item>
+            Ter Chantawit
+            \nThanaerng Kanyawee
+        </item>
+        <item>
+            Song Hye-kyo
+            \nJeon Yeo-bin
+        </item>
+        <item>
+            Satoshi Hino
+            \nYumi Hara
+        </item>
+        <item>
+            Freen Sarocha Chankimha
+            \nMario Maurer
+        </item>
+        <item>
+            Wafda Saifan
+            \nTaskya Namya
+        </item>
+        <item>
+            Jenny Zhang
+            \nRizky Hanggono
+        </item>
+        <item>
+            Jack Quaid
+            \nSophie Thatcher
+        </item>
+        <item>
+            Ariel Tatum
+            \nAbidzar Al-ghifari
+        </item>
+        <item>
+            Dayo WONG
+            \nMichael HUI
+        </item>
+        <item>(G)I-DLE</item>
+        <item>
+            Imelda Staunton
+            \nBen Whishaw
+        </item>
+        <item>
+            Akshay Kumar
+            \nVeer Pahariya
+        </item>
+        <item>
+            PARK Ji-hyun
+            \nCHOI Si-won
+        </item>
+    </string-array>
+
+    <!-- Movie Censor Ratings -->
+    <string-array name="movie_censor_rating">
+        <item>SU</item>
+        <item>13+</item>
+        <item>SU</item>
+        <item>SU</item>
+        <item>SU</item> <!-- TODO: FIX RATINGS DATA -->
+        <item>SU</item>
+        <item>SU</item>
+        <item>SU</item>
+        <item>SU</item>
+        <item>SU</item>
+        <item>SU</item>
+        <item>SU</item>
+        <item>SU</item>
+        <item>SU</item>
+        <item>SU</item>
+        <item>SU</item>
+        <item>SU</item>
+        <item>SU</item>
+        <item>SU</item>
+        <item>SU</item>
+        <item>SU</item>
+    </string-array>
+
+    <!-- Movie Genres -->
+    <string-array name="movie_genre">
+        <!-- TODO: LIST ITEM -->
+        <item>FAMILY</item>
+        <item>FAMILY</item>
+        <item>FAMILY</item>
+        <item>FAMILY</item>
+        <item>FAMILY</item>
+        <item>FAMILY</item>
+        <item>FAMILY</item>
+        <item>FAMILY</item>
+        <item>FAMILY</item>
+        <item>FAMILY</item>
+        <item>FAMILY</item>
+        <item>FAMILY</item>
+        <item>FAMILY</item>
+        <item>FAMILY</item>
+        <item>FAMILY</item>
+        <item>FAMILY</item>
+        <item>FAMILY</item>
+        <item>FAMILY</item>
+        <item>FAMILY</item>
+        <item>FAMILY</item>
+        <item>FAMILY</item>
+    </string-array>
+
+    <!-- Movie Languages -->
+    <string-array name="movie_language">
+        <!-- TODO: LIST ITEM -->
+        <item>BAHASA INDONESIA</item>
+        <item>BAHASA INDONESIA</item>
+        <item>BAHASA INDONESIA</item>
+        <item>BAHASA INDONESIA</item>
+        <item>BAHASA INDONESIA</item>
+        <item>BAHASA INDONESIA</item>
+        <item>BAHASA INDONESIA</item>
+        <item>BAHASA INDONESIA</item>
+        <item>BAHASA INDONESIA</item>
+        <item>BAHASA INDONESIA</item>
+        <item>BAHASA INDONESIA</item>
+        <item>BAHASA INDONESIA</item>
+        <item>BAHASA INDONESIA</item>
+        <item>BAHASA INDONESIA</item>
+        <item>BAHASA INDONESIA</item>
+        <item>BAHASA INDONESIA</item>
+        <item>BAHASA INDONESIA</item>
+        <item>BAHASA INDONESIA</item>
+        <item>BAHASA INDONESIA</item>
+        <item>BAHASA INDONESIA</item>
+        <item>BAHASA INDONESIA</item>
+    </string-array>
+
+    <!-- Movie Subtitle -->
+    <string-array name="movie_subtitle">
+        <!-- TODO: LIST ITEM -->
+        <item>BAHASA INDONESIA</item>
+        <item>BAHASA INDONESIA</item>
+        <item>BAHASA INDONESIA</item>
+        <item>BAHASA INDONESIA</item>
+        <item>BAHASA INDONESIA</item>
+        <item>BAHASA INDONESIA</item>
+        <item>BAHASA INDONESIA</item>
+        <item>BAHASA INDONESIA</item>
+        <item>BAHASA INDONESIA</item>
+        <item>BAHASA INDONESIA</item>
+        <item>BAHASA INDONESIA</item>
+        <item>BAHASA INDONESIA</item>
+        <item>BAHASA INDONESIA</item>
+        <item>BAHASA INDONESIA</item>
+        <item>BAHASA INDONESIA</item>
+        <item>BAHASA INDONESIA</item>
+        <item>BAHASA INDONESIA</item>
+        <item>BAHASA INDONESIA</item>
+        <item>BAHASA INDONESIA</item>
+        <item>BAHASA INDONESIA</item>
+        <item>BAHASA INDONESIA</item>
+    </string-array>
+
+    <!-- Movie Duration -->
+    <string-array name="movie_duration">
+        <!-- TODO: LIST ITEM -->
+        <item>94 Minutes</item>
+        <item>94 Minutes</item>
+        <item>94 Minutes</item>
+        <item>94 Minutes</item>
+        <item>94 Minutes</item>
+        <item>94 Minutes</item>
+        <item>94 Minutes</item>
+        <item>94 Minutes</item>
+        <item>94 Minutes</item>
+        <item>94 Minutes</item>
+        <item>94 Minutes</item>
+        <item>94 Minutes</item>
+        <item>94 Minutes</item>
+        <item>94 Minutes</item>
+        <item>94 Minutes</item>
+        <item>94 Minutes</item>
+        <item>94 Minutes</item>
+        <item>94 Minutes</item>
+        <item>94 Minutes</item>
+        <item>94 Minutes</item>
+        <item>94 Minutes</item>
+    </string-array>
 </resources>
