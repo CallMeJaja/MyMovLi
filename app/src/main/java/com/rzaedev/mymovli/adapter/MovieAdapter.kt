@@ -5,31 +5,36 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.rzaedev.mymovli.databinding.ItemRowMovieBinding
-import com.rzaedev.mymovli.model.Movie
+import com.rzaedev.mymovli.model.MovieModel
 
-class GridMovieAdapter(private val listMovie: ArrayList<Movie>) :
-    RecyclerView.Adapter<GridMovieAdapter.GridViewHolder>() {
-    class GridViewHolder(var binding: ItemRowMovieBinding) : RecyclerView.ViewHolder(binding.root) {
-
-    }
-
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): GridViewHolder {
-        val view = ItemRowMovieBinding.inflate(LayoutInflater.from(parent.context), parent, false)
-        return GridViewHolder(view)
-    }
-
-    override fun getItemCount(): Int = listMovie.size
-
-    override fun onBindViewHolder(holder: GridViewHolder, position: Int) {
-        val (title, description, director, starring, censorRating, genre, language, subtitle, duration, posterUrl) = listMovie[position]
-        Glide.with(holder.itemView.context).load(posterUrl).fitCenter().into(holder.binding.moviePoster)
-        holder.binding.movieTitle.text = title
-        holder.binding.movieDescription.text = description
-        holder.binding.movieCensorRating.text = censorRating
-        holder.binding.movieGenre.text = genre
-        holder.binding.movieDuration.text = duration
-        holder.itemView.setOnClickListener {
-            /* TODO: Handle item click */
+class MovieAdapter(
+    private val listMovieModel: ArrayList<MovieModel>,
+    private val onItemCLick: (MovieModel) -> Unit
+) :
+    RecyclerView.Adapter<MovieAdapter.MovieViewHolder>() {
+    inner class MovieViewHolder(private var binding: ItemRowMovieBinding) :
+        RecyclerView.ViewHolder(binding.root) {
+        fun bind(movie: MovieModel) {
+            binding.movieTitle.text = movie.title
+            binding.movieDescription.text = movie.description
+            binding.movieCensorRating.text = movie.censorRating
+            binding.movieGenre.text = movie.genre
+            Glide.with(itemView.context).load(movie.posterUrl).fitCenter().into(binding.moviePoster)
+            itemView.setOnClickListener {
+                onItemCLick(movie)
+            }
         }
+    }
+
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MovieViewHolder {
+        val view = ItemRowMovieBinding.inflate(LayoutInflater.from(parent.context), parent, false)
+        return MovieViewHolder(view)
+    }
+
+    override fun getItemCount(): Int = listMovieModel.size
+
+    override fun onBindViewHolder(holder: MovieViewHolder, position: Int) {
+        val movies = listMovieModel[position]
+        holder.bind(movies)
     }
 }

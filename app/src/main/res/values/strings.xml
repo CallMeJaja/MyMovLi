@@ -6,11 +6,15 @@
     <string name="instagram">rzae.id</string>
 
     <string name="title">Judul Film</string>
-    <string name="description">Deskripsi Film</string>
-    <string name="genre">Genre</string>
-    <string name="censor_rating">Rating</string>
-    <string name="duration">Durasi</string>
-
+    <string name="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam in ipsam mollitia odit quaerat sequi voluptatibus! Ad, aspernatur, laborum! Aliquam architecto assumenda autem consequatur nostrum numquam officiis quasi sequi voluptates.</string>
+    <string name="director">Direktur Film</string>
+    <string name="starring">Pemeran Film</string>
+    <string name="censor_rating">Rating Film</string>
+    <string name="genre">Genre Film</string>
+    <string name="language">Bahasa Film</string>
+    <string name="subtitle">Subtitle Film</string>
+    <string name="duration">Durasi Film</string>
+    <string name="poster">Poster Film</string>
 
     <!-- Movie Posters URL -->
     <string-array name="movie_posters">
@@ -69,12 +73,18 @@
         <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aut consectetur deserunt eum expedita, explicabo laboriosam laudantium nemo nisi perspiciatis, possimus quaerat quibusdam quo ratione totam vitae voluptatem, voluptatibus?</item>
         <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aut consectetur deserunt eum expedita, explicabo laboriosam laudantium nemo nisi perspiciatis, possimus quaerat quibusdam quo ratione totam vitae voluptatem, voluptatibus?</item>
         <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aut consectetur deserunt eum expedita, explicabo laboriosam laudantium nemo nisi perspiciatis, possimus quaerat quibusdam quo ratione totam vitae voluptatem, voluptatibus?</item>
-        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aut consectetur deserunt eum expedita, explicabo laboriosam laudantium nemo nisi perspiciatis, possimus quaerat quibusdam quo ratione totam vitae voluptatem, voluptatibus?</item><item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aut consectetur deserunt eum expedita, explicabo laboriosam laudantium nemo nisi perspiciatis, possimus quaerat quibusdam quo ratione totam vitae voluptatem, voluptatibus?</item>
-        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aut consectetur deserunt eum expedita, explicabo laboriosam laudantium nemo nisi perspiciatis, possimus quaerat quibusdam quo ratione totam vitae voluptatem, voluptatibus?</item><item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aut consectetur deserunt eum expedita, explicabo laboriosam laudantium nemo nisi perspiciatis, possimus quaerat quibusdam quo ratione totam vitae voluptatem, voluptatibus?</item>
-        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aut consectetur deserunt eum expedita, explicabo laboriosam laudantium nemo nisi perspiciatis, possimus quaerat quibusdam quo ratione totam vitae voluptatem, voluptatibus?</item><item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aut consectetur deserunt eum expedita, explicabo laboriosam laudantium nemo nisi perspiciatis, possimus quaerat quibusdam quo ratione totam vitae voluptatem, voluptatibus?</item>
-        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aut consectetur deserunt eum expedita, explicabo laboriosam laudantium nemo nisi perspiciatis, possimus quaerat quibusdam quo ratione totam vitae voluptatem, voluptatibus?</item><item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aut consectetur deserunt eum expedita, explicabo laboriosam laudantium nemo nisi perspiciatis, possimus quaerat quibusdam quo ratione totam vitae voluptatem, voluptatibus?</item>
-        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aut consectetur deserunt eum expedita, explicabo laboriosam laudantium nemo nisi perspiciatis, possimus quaerat quibusdam quo ratione totam vitae voluptatem, voluptatibus?</item><item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aut consectetur deserunt eum expedita, explicabo laboriosam laudantium nemo nisi perspiciatis, possimus quaerat quibusdam quo ratione totam vitae voluptatem, voluptatibus?</item>
-        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aut consectetur deserunt eum expedita, explicabo laboriosam laudantium nemo nisi perspiciatis, possimus quaerat quibusdam quo ratione totam vitae voluptatem, voluptatibus?</item><item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aut consectetur deserunt eum expedita, explicabo laboriosam laudantium nemo nisi perspiciatis, possimus quaerat quibusdam quo ratione totam vitae voluptatem, voluptatibus?</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aut consectetur deserunt eum expedita, explicabo laboriosam laudantium nemo nisi perspiciatis, possimus quaerat quibusdam quo ratione totam vitae voluptatem, voluptatibus?</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aut consectetur deserunt eum expedita, explicabo laboriosam laudantium nemo nisi perspiciatis, possimus quaerat quibusdam quo ratione totam vitae voluptatem, voluptatibus?</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aut consectetur deserunt eum expedita, explicabo laboriosam laudantium nemo nisi perspiciatis, possimus quaerat quibusdam quo ratione totam vitae voluptatem, voluptatibus?</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aut consectetur deserunt eum expedita, explicabo laboriosam laudantium nemo nisi perspiciatis, possimus quaerat quibusdam quo ratione totam vitae voluptatem, voluptatibus?</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aut consectetur deserunt eum expedita, explicabo laboriosam laudantium nemo nisi perspiciatis, possimus quaerat quibusdam quo ratione totam vitae voluptatem, voluptatibus?</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aut consectetur deserunt eum expedita, explicabo laboriosam laudantium nemo nisi perspiciatis, possimus quaerat quibusdam quo ratione totam vitae voluptatem, voluptatibus?</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aut consectetur deserunt eum expedita, explicabo laboriosam laudantium nemo nisi perspiciatis, possimus quaerat quibusdam quo ratione totam vitae voluptatem, voluptatibus?</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aut consectetur deserunt eum expedita, explicabo laboriosam laudantium nemo nisi perspiciatis, possimus quaerat quibusdam quo ratione totam vitae voluptatem, voluptatibus?</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aut consectetur deserunt eum expedita, explicabo laboriosam laudantium nemo nisi perspiciatis, possimus quaerat quibusdam quo ratione totam vitae voluptatem, voluptatibus?</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aut consectetur deserunt eum expedita, explicabo laboriosam laudantium nemo nisi perspiciatis, possimus quaerat quibusdam quo ratione totam vitae voluptatem, voluptatibus?</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aut consectetur deserunt eum expedita, explicabo laboriosam laudantium nemo nisi perspiciatis, possimus quaerat quibusdam quo ratione totam vitae voluptatem, voluptatibus?</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aut consectetur deserunt eum expedita, explicabo laboriosam laudantium nemo nisi perspiciatis, possimus quaerat quibusdam quo ratione totam vitae voluptatem, voluptatibus?</item>
         <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aut consectetur deserunt eum expedita, explicabo laboriosam laudantium nemo nisi perspiciatis, possimus quaerat quibusdam quo ratione totam vitae voluptatem, voluptatibus?</item>
         <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aut consectetur deserunt eum expedita, explicabo laboriosam laudantium nemo nisi perspiciatis, possimus quaerat quibusdam quo ratione totam vitae voluptatem, voluptatibus?</item>
         <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aut consectetur deserunt eum expedita, explicabo laboriosam laudantium nemo nisi perspiciatis, possimus quaerat quibusdam quo ratione totam vitae voluptatem, voluptatibus?</item>

@@ -1,14 +1,12 @@
-package com.rzaedev.mymovli
+package com.rzaedev.mymovli.ui
 
 import android.os.Bundle
 import android.view.MenuItem
-import androidx.activity.OnBackPressedCallback
-import androidx.activity.OnBackPressedDispatcher
-import androidx.activity.addCallback
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.rzaedev.mymovli.R
 import com.rzaedev.mymovli.databinding.ActivityProfileBinding
 
 class ProfileActivity : AppCompatActivity() {
