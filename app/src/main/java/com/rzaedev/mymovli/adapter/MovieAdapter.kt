@@ -21,11 +21,11 @@ class GridMovieAdapter(private val listMovie: ArrayList<Movie>) :
     override fun getItemCount(): Int = listMovie.size
 
     override fun onBindViewHolder(holder: GridViewHolder, position: Int) {
-        val (name, description, rating, genre, duration, poster) = listMovie[position]
-        Glide.with(holder.itemView.context).load(poster).into(holder.binding.moviePoster)
-        holder.binding.movieTitle.text = name
+        val (title, description, director, starring, censorRating, genre, language, subtitle, duration, posterUrl) = listMovie[position]
+        Glide.with(holder.itemView.context).load(posterUrl).fitCenter().into(holder.binding.moviePoster)
+        holder.binding.movieTitle.text = title
         holder.binding.movieDescription.text = description
-        holder.binding.movieCensorRating.text = rating
+        holder.binding.movieCensorRating.text = censorRating
         holder.binding.movieGenre.text = genre
         holder.binding.movieDuration.text = duration
         holder.itemView.setOnClickListener {
